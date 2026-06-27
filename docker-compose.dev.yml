@@ -1,0 +1,63 @@
+services:
+  # PHP Service
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: registry.gitlab.com/bpbumd/website:latest
+    container_name: web_bpbumd_app
+    environment:
+      HTTP_PROXY: http://10.15.3.21:80
+      HTTPS_PROXY: http://10.15.3.21:80
+      http_proxy: http://10.15.3.21:80
+      https_proxy: http://10.15.3.21:80
+    restart: unless-stopped
+    working_dir: /var/www
+    volumes:
+      - ./:/var/www
+      - ./docker/php/local.ini:/usr/local/etc/php/conf.d/local.ini
+    networks:
+      - website-network
+
+  # Nginx Service
+  nginx:
+    image: nginx:alpine
+    container_name: web_bpbumd_nginx
+    restart: unless-stopped
+    ports:
+      - "8888:80"
+    volumes:
+      - ./:/var/www
+      - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
+    networks:
+      - website-network
+
+  # MySQL Service
+  db:
+    image: mysql:8.0
+    container_name: web_bpbumd_db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_USER: ${DB_USERNAME}
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+      TZ: Asia/Jakarta
+    ports:
+      - "3306:3306"
+    volumes:
+      - website-data:/var/lib/mysql
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    networks:
+      - website-network
+      
+networks:
+  website-network:
+    driver: bridge
+
+volumes:
+  website-data:
+    driver: local

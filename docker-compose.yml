@@ -1,0 +1,107 @@
+services:
+  
+  # PHP Service
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: registry.gitlab.com/bpbumd/website:latest
+    container_name: web_bpbumd_app
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      TZ: Asia/Jakarta
+      DB_CONNECTION: mysql
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_DATABASE: '${DB_DATABASE}'
+      DB_USERNAME: '${DB_USERNAME}'
+      DB_PASSWORD: '${DB_PASSWORD}'
+      TURNSTILE_SECRET_KEY: '${TURNSTILE_SECRET_KEY}'
+      TURNSTILE_SITE_KEY: '${TURNSTILE_SITE_KEY}'
+      HTTP_PROXY: http://10.15.3.21:80
+      HTTPS_PROXY: http://10.15.3.21:80
+      http_proxy: http://10.15.3.21:80
+      https_proxy: http://10.15.3.21:80
+      NO_PROXY: localhost,127.0.0.1,db,webserver,umami-umami-1,10.15.102.118
+      no_proxy: localhost,127.0.0.1,db,webserver,umami-umami-1,10.15.102.118
+    volumes:
+      - public_data:/var/www/html/public
+      - storage_data:/var/www/html/storage
+      - ./docker/php/local.ini:/usr/local/etc/php/conf.d/local.ini
+      - .env:/var/www/html/.env
+      - ./config/services.php:/var/www/html/config/services.php:ro
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD-SHELL", "php-fpm -t"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Nginx Service
+  webserver:
+    image: nginx:alpine
+    container_name: web_bpbumd_webserver
+    restart: unless-stopped
+    depends_on:
+      app:
+        condition: service_healthy
+    ports:
+      - "8888:80"
+    volumes:
+      - public_data:/var/www/html/public:ro
+      - storage_data:/var/www/html/storage:ro
+      - ./docker/nginx/conf.d/:/etc/nginx/conf.d/:ro
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    
+  # MySQL Service
+  db:
+    image: mysql:8.0
+    container_name: web_bpbumd_db
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: '${DB_DATABASE}'
+      MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
+      MYSQL_PASSWORD: '${DB_PASSWORD}'
+      MYSQL_USER: '${DB_USERNAME}'
+      MYSQL_ALLOW_EMPTY_PASSWORD: 1
+    volumes:
+      - dbdata:/var/lib/mysql/
+      - ./docker/mysql/my.cnf:/etc/mysql/my.cnf:ro
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p$$MYSQL_ROOT_PASSWORD"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+      
+# Networks
+networks:
+  app-network:
+    driver: bridge
+
+# Volumes
+volumes:
+  dbdata:
+    name: 'web_bpbumd-dbdata'
+    driver: local
+  public_data:
+    name: 'web_bpbumd-public'
+    driver: local
+  storage_data:
+    name: 'web_bpbumd-storage'
+    driver: local

@@ -1,0 +1,403 @@
+{
+    "menu": {
+        "home": "Beranda",
+        "profile": "Profil",
+        "bumd_info": "Informasi BUMD",
+        "news": "Berita",
+        "gallery": "Galeri",
+        "regulations": "Regulasi",
+        "ppid": "PPID"
+    },
+    "header": {
+        "logo_alt": "Logo Badan Pembinaan BPBUMD",
+        "menu_toggle": "Menu"
+    },
+    "common": {
+        "page": "Halaman",
+        "of": "dari",
+        "previous": "Sebelumnya",
+        "next": "Selanjutnya",
+        "previous_page": "Halaman Sebelumnya",
+        "next_page": "Halaman Selanjutnya"
+    },
+    "pagination": {
+        "page": "Halaman",
+        "of": "dari",
+        "previous": "Sebelumnya",
+        "next": "Selanjutnya",
+        "previous_page": "Halaman Sebelumnya",
+        "next_page": "Halaman Selanjutnya"
+    },
+    "profile": {
+        "tentangkami": "Tentang Kami",
+        "visimisi": "Visi dan Misi",
+        "tupoksi": "Tugas Pokok dan Fungsi",
+        "org_structure": "Struktur Organisasi",
+        "officials": "Pejabat Struktural",
+        "renstra": "Rencana Strategis"
+    },
+    "informasi": {
+        "list_bumd": "Daftar BUMD dan Perusahaan Patungan",
+        "profiles": "Profil BUMD dan Perusahaan Patungan",
+        "financial_performance": "Kinerja Keuangan BUMD dan Perusahaan Patungan",
+        "child": {
+            "financial_conditions_bumd": "Kondisi Keuangan BUMD",
+            "financial_ratios_bumd": "Rasio Keuangan BUMD",
+            "financial_conditions_bumd_joint": "Kondisi Keuangan BUMD dan Perusahaan Patungan",
+            "financial_ratios_bumd_joint": "Rasio Keuangan BUMD dan Perusahaan Patungan"
+        }
+    },
+    "ppid": {
+        "profile": "Profil PPID",
+        "vision_mission": "Visi dan Misi PPID",
+        "org_structure": "Struktur Organisasi PPID",
+        "duties_functions": "Tugas dan Fungsi PPID",
+        "legal_basis": "Dasar dan Hukum PPID",
+        "categories": {
+            "info_ppid": "INFORMASI PPID",
+            "public_info": "INFORMASI PUBLIK",
+            "service_standards": "STANDAR LAYANAN"
+        }
+    },
+    "informasi_publik": {
+        "periodic": "Informasi yang Wajib Disediakan dan Diumumkan Secara Berkala",
+        "anytime": "Informasi yang Wajib Tersedia Setiap Saat",
+        "immediate": "Informasi yang Wajib Diumumkan Secara Serta Merta"
+    },
+    "standar_layanan": {
+        "service_charter": "Maklumat Layanan",
+        "info_request_procedure": "Prosedur Permohonan Informasi",
+        "objection_procedure": "Prosedur Pengajuan Keberatan",
+        "dispute_procedure": "Prosedur Permohonan Penyelesaian Sengketa Informasi",
+        "service_fees": "Biaya Layanan"
+    },
+    "welcome": {
+        "title": "Beranda",
+        "meta": {
+            "description": "Badan Pembinaan Badan Usaha Milik Daerah Pemprov Jakarta - Menyelenggarakan fungsi penunjang urusan pemerintah di bidang keuangan pada sub bidang pembinaan BUMD",
+            "keywords": "BPBUMD, badan pembinaan, bumd, pemprov jakarta"
+        },
+        "banner": {
+            "label": "Berita",
+            "read_more": "Lihat Selengkapnya"
+        },
+        "about": {
+            "heading": "Tentang BPBUMD",
+            "title": "BADAN PEMBINAAN BADAN USAHA MILIK DAERAH (BPBUMD)",
+            "description": "Badan Pembinaan BUMD Provinsi Jakarta adalah badan yang bertanggung jawab dalam pengelolaan dan pengembangan BUMD di Provinsi Jakarta.",
+            "address": "Kompleks Balaikota Blok H Lantai 17, Jl. Medan Merdeka Selatan No. 8-9, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10110",
+            "view_more": "Lihat Selengkapnya"
+        },
+        "popular_news": {
+            "heading": "Berita Terpopuler"
+        },
+        "services": {
+            "heading": "Layanan Informasi Publik",
+            "description": "Nyok, ajuin permohonan informasi untuk mendapatkan info yang kamu mau.",
+            "download": "Download Formulir"
+        },
+        "news": {
+            "heading": "Berita",
+            "description": "Informasi terbaru tentang pengumuman dan kegiatan dalam mendukung pelayanan publik dan pertumbuhan ekonomi Jakarta.",
+            "read_more": "Baca Selengkapnya",
+            "view_all": "Lihat Semua Berita",
+            "filter_by_category": "Filter Kategori",
+            "all_categories": "Semua Kategori",
+            "total_news": "Total Berita",
+            "no_news": "Tidak ada berita tersedia"
+        },
+        "bumd": {
+            "heading": "Badan Usaha Milik Daerah",
+            "subheading": "BUMD dan Perusahaan Patungan Provinsi DKI Jakarta",
+            "instruction": "(Arahkan kursor ke titik atau klik titik untuk melihat informasi)"
+        },
+        "sectors": {
+            "tourism": {
+                "title": "Pariwisata",
+                "description": "Mengelola dan mengembangkan potensi wisata daerah melalui pengelolaan destinasi, promosi, dan pengembangan industri pariwisata."
+            },
+            "food": {
+                "title": "Pangan",
+                "description": "Menjamin ketersediaan dan distribusi bahan pangan pokok yang berkualitas dengan harga terjangkau."
+            },
+            "property": {
+                "title": "Properti",
+                "description": "Mengelola dan mengembangkan aset properti serta kawasan strategis untuk optimalisasi nilai ekonomi daerah."
+            },
+            "transport": {
+                "title": "Transportasi",
+                "description": "Mengelola sistem transportasi publik yang aman, nyaman, dan terjangkau untuk melayani mobilitas masyarakat. "
+            },
+            "finance": {
+                "title": "Keuangan",
+                "description": "Menyediakan layanan perbankan dan pembiayaan yang mendukung pertumbuhan ekonomi daerah."
+            },
+            "utilities": {
+                "title": "Utilitas dan lainnya",
+                "description": "Menyediakan layanan utilitas publik seperti air bersih, pengelolaan limbah, dan lainnya untuk meningkatkan kualitas hidup masyarakat."
+            }
+        },
+        "gallery": {
+            "heading": "Galeri",
+            "description": "Foto-foto kegiatan BUMD DKI",
+            "read_more": "Baca Selengkapnya",
+            "view_all": "Lihat Semua Galeri"
+        }
+    },
+    "berita": {
+        "content": {
+            "label": "Konten",
+            "label_en": "Konten (EN)"
+        },
+        "public": {
+            "other_news": "Berita Lainnya",
+            "click_to_enlarge": "Klik gambar untuk memperbesar",
+            "overlay_zoom": "Klik untuk memperbesar"
+        }
+    },
+    "albums": {
+        "public": {
+            "heading": "Galeri",
+            "search_placeholder": "Cari album...",
+            "clear_filters": "Hapus Filter",
+            "no_albums_title": "Tidak ada album",
+            "no_albums_desc_none": "Belum ada album yang tersedia saat ini.",
+            "no_albums_desc_search": "Tidak ditemukan album yang sesuai dengan pencarian Anda.",
+            "images_heading": "Foto",
+            "photos_suffix": "foto",
+            "back_to_gallery": "Kembali ke Galeri",
+            "no_photos_title": "Tidak ada foto",
+            "no_photos_desc": "Album ini belum memiliki foto yang dipublikasikan."
+        },
+        "admin": {
+            "search_placeholder": "Cari judul/deskripsi...",
+            "add_button": "Tambah",
+            "edit": "Edit",
+            "delete": "Hapus",
+            "view": "Lihat",
+            "actions": "Aksi",
+            "columns": {
+                "image": "Gambar",
+                "title": "Judul",
+                "total_images": "Total Gambar",
+                "published": "Ditayangkan",
+                "updated_at": "Update Terakhir"
+            },
+            "status": {
+                "published": "Ditayangkan",
+                "draft": "Draft"
+            },
+            "confirm_delete_title": "Hapus Album?",
+            "confirm_delete_text": "Tindakan ini tidak dapat dibatalkan.",
+            "confirm_delete_confirm": "Ya, hapus!",
+            "confirm_delete_cancel": "Batal",
+            "deleted_success_title": "Terhapus",
+            "deleted_success_text": "Album berhasil dihapus.",
+            "deleted_error_title": "Gagal",
+            "deleted_error_text": "Terjadi kesalahan saat menghapus album."
+        }
+    },
+    "pages": {
+        "tentang_kami": {
+            "breadcrumb": {
+                "profile": "Profil",
+                "page": "Tentang Kami"
+            },
+            "hero": {
+                "title": "Tentang Kami",
+                "description": "Informasi Tentang Kami Pemerintah Provinsi DKI Jakarta"
+            },
+            "head": {
+                "title": "Tentang Kami",
+                "description": "Tentang Kami Pemerintah Provinsi DKI Jakarta",
+                "keywords": "Tentang Kami, Pemerintah Provinsi DKI Jakarta"
+            },
+            "description_1": "Badan Pembinaan BUMD Provinsi Jakarta adalah badan yang bertanggung jawab dalam pengelolaan dan pengembangan BUMD di Provinsi Jakarta.",
+            "description_2": "Pembinaan BUMD di Provinsi DKI Jakarta dilakukan oleh SKPD dilingkungan Provinsi DKI Jakarta. Diawal pembentukannya fungsi pembinaan BUMD tidak berdiri sendiri namun disertakan bersama urusan penanaman modal yang terkait dengan investasi Pemerintah Daerah. Bagi Pemerintah DKI Jakarta penanganan penanaman modal merupakan suatu hal yang khusus karena berbeda dengan daerah lainnya di Indonesia.",
+            "stats": {
+                "bumd": "Badan Usaha Milik Daerah",
+                "joint_venture": "Perusahaan Patungan"
+            }
+        },
+        "visi_misi": {
+            "breadcrumb": {
+                "profile": "Profil",
+                "page": "Visi & Misi"
+            },
+            "hero": {
+                "title": "Visi & Misi Pemerintah Provinsi DKI Jakarta",
+                "description": "Informasi Visi & Misi Pemerintah Provinsi DKI Jakarta"
+            },
+            "head": {
+                "title": "Visi dan Misi",
+                "description": "Visi & Misi Pemerintah Provinsi DKI Jakarta",
+                "keywords": "Visi & Misi, Pemerintah Provinsi DKI Jakarta"
+            },
+            "headings": {
+                "vision": "Visi Pemerintah Provinsi DKI Jakarta",
+                "mission": "Misi Pemerintah Provinsi DKI Jakarta"
+            },
+            "vision_paragraph": "Jakarta kota maju, lestari dan berbudaya yang warganya terlibat dalam mewujudkan keberadaban, keadilan dan kesejahteraan bagi semua.",
+            "mission_1": "Menjadikan Jakarta kota yang aman, sehat, cerdas, berbudaya, dengan memperkuat nilai-nilai keluarga dan memberikan ruang kreativitas melalui kepemimpinan yang melibatkan, menggerakkan dan memanusiakan.",
+            "mission_2": "Menjadikan Jakarta kota yang memajukan kesejahteraan umum melalui terciptanya lapangan kerja, kestabilan dan keterjangkauan kebutuhan pokok, meningkatnya keadilan sosial, percepatan pembangunan infrastruktur, kemudahan investasi dan berbisnis, serta perbaikan pengelolaan tata ruang.",
+            "mission_3": "Menjadikan Jakarta tempat wahana aparatur negara yang berkarya, mengabdi, melayani, serta menyelesaikan berbagai permasalahan kota dan warga, secara efektif, meritokratis dan berintegritas.",
+            "mission_4": "Menjadikan Jakarta kota yang lestari, dengan pembangunan dan tata kehidupan yang memperkuat daya dukung lingkungan dan sosial.",
+            "mission_5": "Menjadikan Jakarta Ibu kota yang dinamis sebagai simpul kemajuan Indonesia yang bercirikan keadilan, kebangsaan dan kebhinekaan."
+        },
+        "tupoksi": {
+            "breadcrumb": {
+                "profile": "Profil",
+                "page": "Tugas Pokok dan Fungsi"
+            },
+            "hero": {
+                "title": "Tugas Pokok dan Fungsi",
+                "description": "Informasi mengenai tugas dan fungsi dari BPBUMD DKI"
+            },
+            "head": {
+                "title": "Tugas Pokok dan Fungsi",
+                "description": "Tugas Pokok dan Fungsi Pemerintah BPBUMD DKI Jakarta",
+                "keywords": "Tugas Pokok dan Fungsi, Pemerintah BPBUMD DKI Jakarta"
+            },
+            "headings": {
+                "duties": "TUGAS",
+                "functions": "FUNGSI"
+            },
+            "duties_description": "BP BUMD mempunyai tugas menyelenggarakan fungsi penunjang urusan pemerintahan di bidang keuangan pada sub bidang pembinaan BUMD.",
+            "functions_description": "BP BUMD mempunyai tugas menyelenggarakan fungsi penunjang urusan pemerintahan di bidang keuangan pada sub bidang pembinaan BUMD.",
+            "functions_list": {
+                "1": "Penyusunan rencana strategis dan rencana kerja dan anggaran BP BUMD.",
+                "2": "Pelaksanaan rencana strategis dan dokumen pelaksanaan anggaran BP BUMD.",
+                "3": "Perumusan dan penetapan kebijakan di bidang penguatan inovasi bisnis BUMD, penguatan daya saing, percepatan penguatan kinerja, penciptaan pertumbuhan berkelanjutan, reduksi emisi, dan lain-lain yang relevan, serta peningkatan kapasitas infrastruktur bisnis BUMD.",
+                "4": "Koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang penguatan inovasi bisnis BUMD, penguatan daya saing, percepatan penguatan kinerja, penciptaan pertumbuhan berkelanjutan, reduksi emisi, dan lain-lain yang relevan, serta peningkatan kapasitas infrastruktur bisnis BUMD.",
+                "5": "Pengkajian dan pengajuan pembentukan BUMD baru.",
+                "6": "Pelaksanaan monitoring dan evaluasi pengelolaan BUMD.",
+                "7": "Pelaksanaan monitoring dan evaluasi kinerja pengurus BUMD dan Perseroan serta kinerja bisnis BUMD.",
+                "8": "Pelaksanaan monitoring dan evaluasi proyek penugasan strategis Gubernur pada BUMD.",
+                "9": "Pelaksanaan pengangkatan dan pemberhentian Direksi, Badan Pengawas, dan Komisaris pada BUMD dan Perseroan Wakil Pemerintah Daerah.",
+                "10": "Penyelenggaraan seleksi dan pengajuan calon pengurus BUMD dan Perseroan Wakil Pemerintah Daerah.",
+                "11": "Pengkajian dan pengajuan rencana akuisisi, merger, spinoff, privatisasi, divestasi, perubahan bentuk badan hukum, dan lain-lain BUMD.",
+                "12": "Pengkajian dan proses pengesahan penghasilan/remunerasi pengurus BUMD.",
+                "13": "Pengkajian dan proses pengesahan rencana jangka panjang (RJP), rencana kerja dan anggaran perusahaan (RKAP), dan lain-lain rencana strategis BUMD.",
+                "14": "Pengajuan rencana investasi langsung penyertaan modal daerah pada BUMD dan Perseroan berkoordinasi dengan SKPD.",
+                "15": "Pengelolaan investasi daerah yang bersifat langsung berupa penyertaan modal daerah.",
+                "16": "Pelaksanaan evaluasi nilai ekonomi dan kontribusi keuangan BUMD dan Perseroan terhadap Pemerintah Daerah.",
+                "17": "Pengelolaan kepegawaian, keuangan, dan barang BP BUMD.",
+                "18": "Pengelolaan ketatausahaan dan kerumahtanggaan BP BUMD.",
+                "19": "Pengelolaan kearsipan, data, dan informasi BP BUMD.",
+                "20": "Pelaporan dan pertanggungjawaban pelalcsanaan tugas dan fungsi BP BUMD."
+            }
+        }
+    },
+    "timeline": {
+        "eras": {
+            "humble_beginning": "Awal yang Sederhana",
+            "stepping_out": "Melangkah Keluar",
+            "global_investment": "Investasi Global",
+            "looking_ahead": "Menatap Masa Depan"
+        },
+        "items": {
+            "1527": {
+                "title": "Berdirinya Kota Jakarta",
+                "description": "Berdirinya Jayakarta pada tahun 1527, yang merupakan ibu kota Provinsi DKI Jakarta."
+            },
+            "1945": {
+                "title": "Indonesia Merdeka",
+                "description": "Indonesia merdeka pada 17 Agustus 1945."
+            },
+            "1960": {
+                "title": "PT Jakarta Propertindo",
+                "description": "Jakpro dibangun dengan misi mengembangkan komunitas dan karya yang mengedepankan prinsip keberlanjutan (sustainability)."
+            },
+            "1961": {
+                "title": "Bank Jakarta",
+                "description": "Bank Jakarta berdiri dan beroperasi sejak tanggal 11 April 1961 merupakan bank pembangunan daerah pertama yang lahir di Indonesia seiring dengan terbentuknya kota Jakarta sebagai ibukota Indonesia."
+            },
+            "1966_pasar_jaya": {
+                "title": "Perumda Pasar Jaya",
+                "description": "Perusahaan Daerah Pasar Jaya didirikan berdasarkan Keputusan Gubernur Kepala Daerah Khusus Ibukota Jakarta No. lb.3/2/15/66 pada tanggal 24 Desember 1966."
+            },
+            "1966_dharma_jaya": {
+                "title": "Perumda Dharma Jaya",
+                "description": "Transformasi menjadi sentra protein hewani di Indonesia adalah capaian penting bagi Perumda Dharma Jaya yang disadari harus melalui proses panjang."
+            },
+            "1973": {
+                "title": "PT JIEP",
+                "description": "Pendirian PT Jakarta Industrial Estate Pulogadung (PT JIEP), 26 Juni 1973, pengganti Proyek Industrial Estate Pulogadung. Komposisi kepemilikan saham: 50% Pemerintah Pusat, 50% Pemerintah Provinsi DKI Jakarta."
+            },
+            "1977": {
+                "title": "PAM Jaya",
+                "description": "Berawal dari tanggal 23 Desember 1922, untuk pertama kalinya air yang berasal dari Desa Ciburial, Bogor, dialirkan ke kota Batavia (Jakarta), dan pada tanggal tersebut dijadikan sebagai hari jadi PAM Jaya."
+            },
+            "1982": {
+                "title": "Perumda Sarana Jaya",
+                "description": "Perusahaan Umum Daerah (Perumda) Pembangunan Sarana Jaya berdiri sejak tahun 1982, yang pada awal berdirinya Sarana Jaya berorientasi sebagai penunjang kebijaksanaan umum Pemprov DKI Jakarta dalam rangka meningkatkan kesejahteraan rakyat."
+            },
+            "1991": {
+                "title": "Perumda Paljaya",
+                "description": "PPD PAL JAYA Berdasarkan Perda Nomor 10 Tahun 1991 tanggal 26 September 1991 tentang PD PAL JAYA."
+            },
+            "1992": {
+                "title": "PT Pembangunan Jaya Ancol",
+                "description": "BPP Proyek Ancol mulai melakukan pembenahan secara internal menyusul perubahan status badan hukumnya menjadi PT Pembangunan Jaya Ancol (“Ancol”) melalui Akta Perubahan No. 33 tanggal 10 Juli 1992."
+            },
+            "2003": {
+                "title": "PT Jakarta Tourisindo (Perseroda)",
+                "description": "Berdasarkan SK Gubernur No.2161/2003 tanggal 2 Juli 2003 PT Jakarta Tourisindo dibentuk dalam rangka pendirian sub-holding company wisata dan perhotelan di lingkungan pemerintah Provinsi DKI Jakarta."
+            },
+            "2004": {
+                "title": "PT Transportasi Jakarta",
+                "description": "TransJakarta adalah sebuah sistem transportasi Bus Rapid Transit (BRT) pertama di Asia Tenggara dan Selatan dengan jalur lintasan terpanjang di dunia (208 km)."
+            },
+            "2008": {
+                "title": "PT MRT Jakarta",
+                "description": "PT MRT Jakarta memiliki ruang lingkup kegiatan di antaranya untuk pengusahaan dan pembangunan prasarana dan sarana MRT."
+            },
+            "2013": {
+                "title": "PT Jamkrida Jakarta",
+                "description": "PT Jamkrida Jakarta adalah Badan Usaha Perseroan Terbatas Milik Pemprov DKI Jakarta yang melaksanakan kegiatan usaha di bidang penjaminan kredit bagi Usaha Mikro, Kecil, Menengah, dan Koperasi (UMKMK)."
+            }
+        },
+        "read_more": "Baca Selengkapnya"
+    },
+    "timeline_sejarah": {
+        "items": {
+            "1967": {
+                "title": "Project Officer of Foreign Investment in Djakarta (POFID)",
+                "description": "Project Officer of Foreign Investment in Djakarta (POFID) dibentuk pada tahun 1967 sebagai pelaksana operasional Undang-Undang Nomor 1 Tahun 1967 tentang Penanaman Modal Asing di DKI Jakarta."
+            },
+            "1968": {
+                "title": "Djakarta Investment Office (DIO)",
+                "description": "Djakarta Investment Office (DIO) dibentuk pada tahun 1968 sejalan dengan diundangkannya Undang-Undang Nomor 6 Tahun 1968 tentang Penanaman Modal Dalam Negeri. FDIO merupakan pengganti POFID dengan bidang tugas yang bersifat lebih luas."
+            },
+            "1973": {
+                "title": "Badan Koordinasi Penanaman Modal Daerah (BKPMD)",
+                "description": "Pada tahun 1973 dibentuk Badan Koordinasi Penanaman Modal Daerah (BKPMD) DKI Jakarta berdasarkan Keputusan Menteri Dalam Negeri Nomor 16 Tahun 1973 tentang Badan Koordinasi Penanaman Modal Daerah, sebagai pelaksanaan lebih lanjut Keputusan Presiden Nomor 20 Tahun 1973."
+            },
+            "2001": {
+                "title": "Penanaman Modal dan Pendayagunaan Kekayaan dan Usaha Daerah (BPM & PKUD)",
+                "description": "Dalam rangka meningkatkan pelaksanaan fungsi Pemerintah Daerah yang berorientasi pada pelayanan publik dan pengembangan perekonomian serta memperhatikan kewenangan Pemerintah dan Kewenangan Propinsi sebagai Daerah Otonomi berdasarkan UU No. 22/1999, telah diterbitkan Peraturan Daerah Provinsi DKI Jakarta Nomor 3 Tahun 2001 tentang Bentuk Susunan Organisasi dan Tata Kerja Perangkat Daerah dan Sekretariat Dewan Perwakilan Rakyat Daerah Propinsi DKI Jakarta, dibentuklah Badan Penanaman Modal dan Pendayagunaan Kekayaan dan Usaha Daerah (BPM & PKUD)."
+            },
+            "2008": {
+                "title": "Badan Penanaman Modal dan Pendayagunaan Kekayaan dan Usaha Daerah (BPM & PKUD)",
+                "description": "Badan Pengelola Keuangan Daerah (BPKD) berubah nama dan bentuk menjadi Badan Penanaman Modal dan Promosi (BPMP) Provinsi DKI Jakarta berdasarkan Peraturan daerah Nomor 10 Tahun 2008 tentang Organisasi Perangkat Daerah yang kemudian ditindaklanjuti dengan Peraturan Gubernur Provinsi DKI Jakarta Nomor 115 Tahun 2009 Tentang Organisasi dan Tata Kerja Badan Penanaman Modal dan Promosi."
+            },
+            "2010": {
+                "title": "Organisasi dan Tata Kerja Unit Pelayanan Terpadu Satu Pintu Bidang Penanaman Modal",
+                "description": "Pada tahun 2010, dikeluarkan Peraturan Gubernur nomor 223 Tahun 2010 mengenai pembentukan Organisasi dan Tata Kerja Unit Pelayanan Terpadu Satu Pintu Bidang Penanaman Modal. Unit PTSP Bidang Penanaman Modal ini merupakan unit pelaksana teknis Badan Penanaman Modal dan Promosi di bidang pelayanan perizinan/non perizinan dan fasilitas penanaman modal."
+            },
+            "2014": {
+                "title": "Badan Pembinaan BUMD dan Penanaman Modal (BP BUMD & PM)",
+                "description": "Pada tahun 2014, sebagaimana tercantum dalam Peraturan Daerah Provinsi DKI Jakarta Nomor 12 Tahun 2014 tentang Organisasi Perangkat Daerah, nama Badan Penanaman Modal dan Promosi (BPMP) diubah menjadi Badan Pembinaan BUMD dan Penanaman Modal (BP BUMD & PM). Struktur Organisasi BP BUMD & PM dikukuhkan melalui Peraturan Gubernur Nomor 225 Tahun 2014 tentang Organisasi dan Tata Kerja Badan Pembinaan Badan Usaha Milik Daerah dan Penanaman Modal."
+            },
+            "2016": {
+                "title": "Badan Pembinaan Badan Usaha Milik Daerah",
+                "description": "Pada tahun 2016, diterbitkan Peraturan Gubernur Nomor 259 tahun 2016 tentang organisasi dan tata kerja Badan Pembinaan Badan Usaha Milik Daerah. Berdasarkan Peraturan Gubernur ini BP BUMD merupakan pelaksana fungsi penunjang urusan pemerintahan bidang keuangan pada subbidang pembinaan BUMD. Fungsi penanaman modal yang sebelumnya dijalankan telah disatukan kepada SKPD Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu."
+            },
+            "2021": {
+                "title": "Pusat Kebijakan Strategis dan Pelayanan BUMD",
+                "description": "Pada tahun 2021, diterbitkan Peraturan Gubernur Nomor 62 Tahun 2021 tentang organisasi dan tata kerja Badan Pembinaan Badan Usaha Milik Daerah. Berdasarkan Peraturan Gubernur ini terdapat penambahan Unit Pelaksana Teknis (UPT) yaitu Pusat Kebijakan Strategis dan Pelayanan BUMD."
+            }
+        },
+        "visit": "Kunjungi"
+    }
+}

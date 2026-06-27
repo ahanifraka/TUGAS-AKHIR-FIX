@@ -1,0 +1,8 @@
+/* Converted to Tailwind: keep only harmless global imports if needed */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+@import 'swiper/css/effect-fade';
+
+/* All layout and component styles moved to Tailwind utility classes in templates */

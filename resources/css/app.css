@@ -1,0 +1,32 @@
+@import "primeicons/primeicons.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #1C5EBD;
+  --color-primary-hover: #1654a7;
+  --color-secondary: #42B791;
+}
+
+/* Increase Inertia progress bar size */
+#nprogress .bar {
+  height: 4px !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #1C5EBD, 0 0 5px #1C5EBD;
+  height: 2px !important;
+}
+
+#nprogress .spinner-icon {
+  width: 24px;
+  height: 24px;
+  border-width: 2px;
+}
+
+/* Custom Speech Configuration */
+.rvTextRow {
+  color: #000000 !important;
+}

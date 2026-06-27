@@ -1,0 +1,404 @@
+{
+  "menu": {
+    "home": "Home",
+    "profile": "Profile",
+    "bumd_info": "BUMD Information",
+    "news": "News",
+    "gallery": "Gallery",
+    "regulations": "Regulations",
+    "ppid": "PPID"
+  },
+  "header": {
+    "logo_alt": "BPBUMD Guidance Agency Logo",
+    "menu_toggle": "Menu"
+  },
+  "common": {
+    "page": "Page",
+    "of": "of",
+    "previous": "Previous",
+    "next": "Next",
+    "previous_page": "Previous Page",
+    "next_page": "Next Page"
+  },
+  "pagination": {
+    "page": "Page",
+    "of": "of",
+    "previous": "Previous",
+    "next": "Next",
+    "previous_page": "Previous Page",
+    "next_page": "Next Page"
+  },
+  "profile": {
+    "tentangkami": "About Us",
+    "visimisi": "Vision and Mission",
+    "tupoksi": "Main Duties and Functions",
+    "org_structure": "Organizational Structure",
+    "officials": "Structural Officials",
+    "renstra": "Strategic Plan"
+  },
+  "informasi": {
+    "list_bumd": "List of BUMDs and Joint Ventures",
+    "profiles": "BUMD and Joint Venture Profiles",
+    "financial_performance": "Financial Performance of BUMDs and Joint Ventures",
+    "child": {
+      "financial_conditions_bumd": "BUMD Financial Conditions",
+      "financial_ratios_bumd": "BUMD Financial Ratios",
+      "financial_conditions_bumd_joint": "Financial Conditions of BUMDs and Joint Ventures",
+      "financial_ratios_bumd_joint": "Financial Ratios of BUMDs and Joint Ventures"
+    }
+  },
+  "ppid": {
+    "profile": "PPID Profile",
+    "vision_mission": "PPID Vision and Mission",
+    "org_structure": "PPID Organizational Structure",
+    "duties_functions": "PPID Duties and Functions",
+    "legal_basis": "PPID Legal Basis",
+    "categories": {
+      "info_ppid": "INFORMATION OF PPID",
+      "public_info": "PUBLIC INFORMATION",
+      "service_standards": "SERVICE STANDARDS"
+    }
+  },
+  "informasi_publik": {
+    "periodic": "Public Information to be Provided and Announced Periodically",
+    "anytime": "Public Information Available at Any Time",
+    "immediate": "Public Information to be Announced Immediately"
+  },
+  "standar_layanan": {
+    "service_charter": "Service Charter",
+    "info_request_procedure": "Information Request Procedure",
+    "objection_procedure": "Objection Submission Procedure",
+    "dispute_procedure": "Information Dispute Resolution Procedure",
+    "service_fees": "Service Fees"
+  },
+  "welcome": {
+    "title": "Home",
+    "meta": {
+      "description": "Jakarta Provincial Government's BPBUMD — supporting financial functions for BUMD development.",
+      "keywords": "BPBUMD, regional enterprises, Jakarta, BUMD"
+    },
+    "banner": {
+      "label": "News",
+      "read_more": "Read More"
+    },
+    "about": {
+      "heading": "About BPBUMD",
+      "title": "BADAN PEMBINAAN BADAN USAHA MILIK DAERAH (BPBUMD)",
+      "description": "BPBUMD is responsible for managing and developing regional-owned enterprises (BUMD) in Jakarta.",
+      "address": "Kompleks Balaikota Blok H Lantai 17, Jl. Medan Merdeka Selatan No. 8-9, Central Jakarta, DKI Jakarta 10110",
+      "view_more": "Learn More"
+    },
+    "popular_news": {
+      "heading": "Popular News"
+    },
+    "services": {
+      "heading": "Public Information Services",
+      "description": "Submit an information request to get the information you need.",
+      "download": "Download Form"
+    },
+    "news": {
+      "heading": "News",
+      "description": "The latest information on announcements and activities supporting public services and Jakarta's economic growth.",
+      "read_more": "Read More",
+      "view_all": "View All News",
+      "filter_by_category": "Filter by Category",
+      "all_categories": "All Categories",
+      "total_news": "Total News",
+      "no_news": "No news available"
+    },
+    "bumd": {
+      "heading": "Badan Usaha Milik Daerah",
+      "subheading": "BUMD dan Perusahaan Patungan Provinsi DKI Jakarta",
+      "instruction": "(Hover or click the dots to see information)"
+    },
+    "sectors": {
+      "tourism": {
+        "title": "Tourism",
+        "description": "Managing and developing regional tourism potential through destination management, promotion, and tourism industry development."
+      },
+      "food": {
+        "title": "Food",
+        "description": "Ensuring the availability and distribution of quality staple food at affordable prices."
+      },
+      "property": {
+        "title": "Property",
+        "description": "Managing and developing property assets and strategic areas to optimize regional economic value."
+      },
+      "transport": {
+        "title": "Transportation",
+        "description": "Managing safe, comfortable, and affordable public transportation systems to serve community mobility."
+      },
+      "finance": {
+        "title": "Finance",
+        "description": "Providing banking and financing services that support regional economic growth."
+      },
+      "utilities": {
+        "title": "Utilities and Others",
+        "description": "Basic services supporting life such as water, electricity, and telecommunications."
+      }
+    },
+    "gallery": {
+      "heading": "Gallery",
+      "description": "Photos of BUMD activities in Jakarta",
+      "read_more": "Read More",
+      "view_all": "View All Galleries"
+    }
+  }
+  ,
+  "berita": {
+    "content": {
+      "label": "Content",
+      "label_en": "Content (EN)"
+    },
+    "public": {
+      "other_news": "Other News",
+      "click_to_enlarge": "Click image to enlarge",
+      "overlay_zoom": "Click to enlarge"
+    }
+  },
+  "albums": {
+    "public": {
+      "heading": "Gallery",
+      "search_placeholder": "Search albums...",
+      "clear_filters": "Clear Filters",
+      "no_albums_title": "No albums",
+      "no_albums_desc_none": "No albums available yet.",
+      "no_albums_desc_search": "No albums match your search.",
+      "images_heading": "Photos",
+      "photos_suffix": "photos",
+      "back_to_gallery": "Back to Gallery",
+      "no_photos_title": "No photos",
+      "no_photos_desc": "This album has no published photos yet."
+    },
+    "admin": {
+      "search_placeholder": "Search title/description...",
+      "add_button": "Add",
+      "edit": "Edit",
+      "delete": "Delete",
+      "view": "View",
+      "actions": "Actions",
+      "columns": {
+        "image": "Image",
+        "title": "Title",
+        "total_images": "Total Images",
+        "published": "Published",
+        "updated_at": "Last Updated"
+      },
+      "status": {
+        "published": "Published",
+        "draft": "Draft"
+      },
+      "confirm_delete_title": "Delete Album?",
+      "confirm_delete_text": "This action cannot be undone.",
+      "confirm_delete_confirm": "Yes, delete!",
+      "confirm_delete_cancel": "Cancel",
+      "deleted_success_title": "Deleted",
+      "deleted_success_text": "Album deleted successfully.",
+      "deleted_error_title": "Failed",
+      "deleted_error_text": "An error occurred while deleting album."
+    }
+  },
+  "pages": {
+    "tentang_kami": {
+      "breadcrumb": {
+        "profile": "Profile",
+        "page": "About Us"
+      },
+      "hero": {
+        "title": "About Us",
+        "description": "Information on the About Us of the Provincial Government of DKI Jakarta"
+      },
+      "head": {
+        "title": "About Us",
+        "description": "About Us of the Provincial Government of DKI Jakarta",
+        "keywords": "About Us, Provincial Government of DKI Jakarta"
+      },
+      "description_1": "The BUMD Guidance Agency of Jakarta Province is the body responsible for the management and development of BUMDs in Jakarta Province.",
+      "description_2": "BUMD guidance in DKI Jakarta Province is carried out by SKPD within the DKI Jakarta Provincial Government. At its inception, the BUMD guidance function did not stand alone but was included with investment affairs related to Regional Government investments. For the DKI Jakarta Government, handling investment is a special matter because it differs from other regions in Indonesia.",
+      "stats": {
+        "bumd": "Regional Owned Enterprises",
+        "joint_venture": "Joint Ventures"
+      }
+    },
+    "visi_misi": {
+      "breadcrumb": {
+        "profile": "Profile",
+        "page": "Vision & Mission"
+      },
+      "hero": {
+        "title": "Vision & Mission of the Provincial Government of DKI Jakarta",
+        "description": "Information on the Vision & Mission of the Provincial Government of DKI Jakarta"
+      },
+      "head": {
+        "title": "Vision and Mission",
+        "description": "Vision & Mission of the Provincial Government of DKI Jakarta",
+        "keywords": "Vision & Mission, Provincial Government of DKI Jakarta"
+      },
+      "headings": {
+        "vision": "Vision of the Provincial Government of DKI Jakarta",
+        "mission": "Mission of the Provincial Government of DKI Jakarta"
+      },
+      "vision_paragraph": "Jakarta is an advanced, sustainable, and cultured city whose residents are engaged in realizing civility, justice, and prosperity for all.",
+      "mission_1": "Making Jakarta a safe, healthy, intelligent, and cultured city by strengthening family values and providing space for creativity through leadership that involves, mobilizes, and humanizes.",
+      "mission_2": "Making Jakarta a city that advances public welfare through the creation of jobs, stability and affordability of basic needs, increased social justice, accelerated infrastructure development, ease of investment and doing business, and improvements to spatial planning management.",
+      "mission_3": "Making Jakarta a place where state apparatus work, devote, and serve, as well as resolve various urban and citizen problems effectively, meritocratically, and with integrity.",
+      "mission_4": "Making Jakarta a sustainable city, with development and a way of life that strengthens environmental and social carrying capacity.",
+      "mission_5": "Making Jakarta a dynamic capital as a hub of Indonesia’s progress characterized by justice, nationality, and diversity."
+    },
+    "tupoksi": {
+      "breadcrumb": {
+        "profile": "Profile",
+        "page": "Main Duties and Functions"
+      },
+      "hero": {
+        "title": "Main Duties and Functions",
+        "description": "Information regarding the duties and functions of BPBUMD DKI"
+      },
+      "head": {
+        "title": "Main Duties and Functions",
+        "description": "Main Duties and Functions of BPBUMD DKI Jakarta Government",
+        "keywords": "Main Duties and Functions, BPBUMD DKI Jakarta Government"
+      },
+      "headings": {
+        "duties": "DUTIES",
+        "functions": "FUNCTIONS"
+      },
+      "duties_description": "BP BUMD has the duty to carry out supporting functions for governmental affairs in the financial sector in the BUMD development sub-sector.",
+      "functions_description": "BP BUMD has the duty to carry out supporting functions for governmental affairs in the financial sector in the BUMD development sub-sector.",
+      "functions_list": {
+        "1": "Preparation of strategic plans and work plans and budgets for BP BUMD.",
+        "2": "Implementation of strategic plans and budget implementation documents for BP BUMD.",
+        "3": "Formulation and determination of policies in the field of strengthening BUMD business innovation, strengthening competitiveness, accelerating performance enhancement, creating sustainable growth, emission reduction, and other relevant matters, as well as improving BUMD business infrastructure capacity.",
+        "4": "Coordination and synchronization of policy implementation in the field of strengthening BUMD business innovation, strengthening competitiveness, accelerating performance enhancement, creating sustainable growth, emission reduction, and other relevant matters, as well as improving BUMD business infrastructure capacity.",
+        "5": "Assessment and submission of proposals for the formation of new BUMDs.",
+        "6": "Implementation of monitoring and evaluation of BUMD management.",
+        "7": "Implementation of monitoring and evaluation of the performance of BUMD management and the Company as well as BUMD business performance.",
+        "8": "Implementation of monitoring and evaluation of the Governor's strategic assignment projects at BUMDs.",
+        "9": "Implementation of appointment and dismissal of Directors, Supervisory Board, and Commissioners at BUMDs and Regional Government Representative Companies.",
+        "10": "Organizing selection and submission of candidates for BUMD management and Regional Government Representative Companies.",
+        "11": "Assessment and submission of plans for acquisition, merger, spin-off, privatization, divestment, change of legal entity form, and other BUMD matters.",
+        "12": "Assessment and approval process for income/remuneration of BUMD management.",
+        "13": "Assessment and approval process for long-term plans (RJP), company work plans and budgets (RKAP), and other BUMD strategic plans.",
+        "14": "Submission of direct investment plans for regional capital participation in BUMDs and Companies in coordination with SKPD.",
+        "15": "Management of regional investments in the form of direct regional capital participation.",
+        "16": "Implementation of economic value evaluation and financial contributions of BUMDs and Companies to the Regional Government.",
+        "17": "Management of personnel, finance, and goods of BP BUMD.",
+        "18": "Management of administration and household affairs of BP BUMD.",
+        "19": "Management of archives, data, and information of BP BUMD.",
+        "20": "Reporting and accountability for the implementation of BP BUMD's duties and functions."
+      }
+    }
+  },
+  "timeline": {
+        "eras": {
+            "humble_beginning": "A Humble Beginning",
+            "stepping_out": "Stepping Out",
+            "global_investment": "Global Investment",
+            "looking_ahead": "Looking Ahead"
+        },
+        "items": {
+            "1527": {
+                "title": "Founding of Jakarta City",
+                "description": "The founding of Jayakarta in 1527, which is the capital of DKI Jakarta Province."
+            },
+            "1945": {
+                "title": "Indonesian Independence",
+                "description": "Indonesia declared independence on August 17, 1945."
+            },
+            "1960": {
+                "title": "PT Jakarta Propertindo",
+                "description": "Jakpro was built with a mission to develop communities and works that prioritize sustainability principles."
+            },
+            "1961": {
+                "title": "Bank Jakarta",
+                "description": "Bank Jakarta was established and has been operating since April 11, 1961, as the first regional development bank born in Indonesia along with the formation of Jakarta as the capital of Indonesia."
+            },
+            "1966_pasar_jaya": {
+                "title": "Perumda Pasar Jaya",
+                "description": "Perusahaan Daerah Pasar Jaya was established based on the Decree of the Governor of the Special Capital Region of Jakarta No. lb.3/2/15/66 on December 24, 1966."
+            },
+            "1966_dharma_jaya": {
+                "title": "Perumda Dharma Jaya",
+                "description": "Transforming into a center for animal protein in Indonesia is an important achievement for Perumda Dharma Jaya, which is realized to require a long process."
+            },
+            "1973": {
+                "title": "PT JIEP",
+                "description": "Establishment of PT Jakarta Industrial Estate Pulogadung (PT JIEP), June 26, 1973, replacing the Pulogadung Industrial Estate Project. Share ownership composition: 50% Central Government, 50% DKI Jakarta Provincial Government."
+            },
+            "1977": {
+                "title": "PAM Jaya",
+                "description": "Starting from December 23, 1922, for the first time water originating from Ciburial Village, Bogor, was flowed to the city of Batavia (Jakarta), and on that date it was made the anniversary of PAM Jaya."
+            },
+            "1982": {
+                "title": "Perumda Sarana Jaya",
+                "description": "Perusahaan Umum Daerah (Perumda) Pembangunan Sarana Jaya has been established since 1982, which at the beginning of its establishment Sarana Jaya was oriented as a support for the general policy of the DKI Jakarta Provincial Government in order to improve people's welfare."
+            },
+            "1991": {
+                "title": "Perumda Paljaya",
+                "description": "PPD PAL JAYA Based on Regional Regulation Number 10 of 1991 dated September 26, 1991 concerning PD PAL JAYA."
+            },
+            "1992": {
+                "title": "PT Pembangunan Jaya Ancol",
+                "description": "BPP Proyek Ancol began to make internal improvements following the change in its legal entity status to PT Pembangunan Jaya Ancol (“Ancol”) through Deed of Amendment No. 33 dated July 10, 1992."
+            },
+            "2003": {
+                "title": "PT Jakarta Tourisindo (Perseroda)",
+                "description": "Based on Governor's Decree No. 2161/2003 dated July 2, 2003, PT Jakarta Tourisindo was formed in the context of establishing a tourism and hospitality sub-holding company within the DKI Jakarta Provincial Government."
+            },
+            "2004": {
+                "title": "PT Transportasi Jakarta",
+                "description": "TransJakarta is the first Bus Rapid Transit (BRT) system in Southeast and South Asia with the longest track in the world (208 km)."
+            },
+            "2008": {
+                "title": "PT MRT Jakarta",
+                "description": "PT MRT Jakarta has a scope of activities including for the exploitation and construction of MRT infrastructure and facilities."
+            },
+            "2013": {
+                "title": "PT Jamkrida Jakarta",
+                "description": "PT Jamkrida Jakarta is a Limited Liability Company Owned by the DKI Jakarta Provincial Government which carries out business activities in the field of credit guarantees for Micro, Small, Medium Enterprises, and Cooperatives (UMKMK)."
+            }
+        },
+        "read_more": "Read more"
+    },
+    "timeline_sejarah": {
+        "items": {
+            "1967": {
+                "title": "Project Officer of Foreign Investment in Djakarta (POFID)",
+                "description": "Project Officer of Foreign Investment in Djakarta (POFID) was formed in 1967 as the operational implementer of Law Number 1 of 1967 concerning Foreign Investment in DKI Jakarta."
+            },
+            "1968": {
+                "title": "Djakarta Investment Office (DIO)",
+                "description": "Djakarta Investment Office (DIO) was formed in 1968 in line with the enactment of Law Number 6 of 1968 concerning Domestic Investment. FDIO is a replacement for POFID with a broader scope of duties."
+            },
+            "1973": {
+                "title": "Regional Investment Coordinating Board (BKPMD)",
+                "description": "In 1973, the Regional Investment Coordinating Board (BKPMD) of DKI Jakarta was formed based on the Decree of the Minister of Home Affairs Number 16 of 1973 concerning the Regional Investment Coordinating Board, as a further implementation of Presidential Decree Number 20 of 1973."
+            },
+            "2001": {
+                "title": "Investment and Regional Wealth and Business Empowerment Agency (BPM & PKUD)",
+                "description": "In order to improve the implementation of Regional Government functions oriented towards public services and economic development and taking into account the authority of the Government and Provincial Authority as an Autonomous Region based on Law No. 22/1999, DKI Jakarta Provincial Regulation Number 3 of 2001 concerning the Organizational Structure and Work Procedures of Regional Apparatus and the Secretariat of the Regional People's Representative Council of DKI Jakarta Province was issued, forming the Investment and Regional Wealth and Business Empowerment Agency (BPM & PKUD)."
+            },
+            "2008": {
+                "title": "Investment and Regional Wealth and Business Empowerment Agency (BPM & PKUD)",
+                "description": "The Regional Financial Management Agency (BPKD) changed its name and form to the Investment and Promotion Agency (BPMP) of DKI Jakarta Province based on Regional Regulation Number 10 of 2008 concerning Regional Apparatus Organizations which was then followed up with Governor Regulation of DKI Jakarta Province Number 115 of 2009 concerning Organization and Work Procedures of the Investment and Promotion Agency."
+            },
+            "2010": {
+                "title": "Organization and Work Procedures of the One-Stop Integrated Service Unit for Investment",
+                "description": "In 2010, Governor Regulation number 223 of 2010 was issued regarding the establishment of the Organization and Work Procedures of the One-Stop Integrated Service Unit for Investment. This Investment Field PTSP Unit is a technical implementation unit of the Investment and Promotion Agency in the field of licensing/non-licensing services and investment facilities."
+            },
+            "2014": {
+                "title": "BUMD Guidance and Investment Agency (BP BUMD & PM)",
+                "description": "In 2014, as stated in the DKI Jakarta Provincial Regulation Number 12 of 2014 concerning Regional Apparatus Organizations, the name of the Investment and Promotion Agency (BPMP) was changed to the BUMD Guidance and Investment Agency (BP BUMD & PM). The Organizational Structure of BP BUMD & PM was confirmed through Governor Regulation Number 225 of 2014 concerning the Organization and Work Procedures of the Regional Owned Enterprise Guidance and Investment Agency."
+            },
+            "2016": {
+                "title": "Regional Owned Enterprise Guidance Agency",
+                "description": "In 2016, Governor Regulation Number 259 of 2016 was issued concerning the organization and work procedures of the Regional Owned Enterprise Guidance Agency. Based on this Governor Regulation, BP BUMD is the implementer of supporting functions for government affairs in the financial sector in the BUMD guidance sub-sector. The investment function previously carried out has been unified to the SKPD of the Investment and One-Stop Integrated Service Office."
+            },
+            "2021": {
+                "title": "Center for Strategic Policy and BUMD Services",
+                "description": "In 2021, Governor Regulation Number 62 of 2021 was issued concerning the organization and work procedures of the Regional Owned Enterprise Guidance Agency. Based on this Governor Regulation, there is an addition of a Technical Implementation Unit (UPT), namely the Center for Strategic Policy and BUMD Services."
+            }
+        },
+        "visit": "Visit"
+    }
+}
